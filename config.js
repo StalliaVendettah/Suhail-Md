@@ -6,9 +6,8 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 global.audio= "" ;  
 global.video= "" ;
 global.port =process.env.PORT
-global.appUrl=process.env.APP_URL || ""                       // put your app url here,
-global.email ="samsamsun789@gmail.com"
-global.location="Lahore,Pakistan."
+global.appUrl=process.env.APP_URL || ""                       // put your app url her"
+global.location="harare,Zimbabwe"
 global.mongodb= process.env.MONGODB_URI || ""
 
 global.allowJids= process.env.ALLOW_JID || "null" 
@@ -74,8 +73,8 @@ module.exports = {
   caption : process.env.CAPTION || "©sᴜʜᴀɪʟ²²¹-ᴍᴅ" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
  
   author : process.env.PACK_AUTHER|| "Suhail-MD",
-  packname: process.env.PACK_NAME || "♥️",
-  botname : process.env.BOT_NAME  || "sᴜʜᴀɪʟ-ᴍᴅ",
+  packname: process.env.PACK_NAME || "vendettah",
+  botname : process.env.BOT_NAME  || "Stallian",
   ownername:process.env.OWNER_NAME|| "It'x Suhail",
 
 
